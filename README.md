@@ -76,6 +76,11 @@ Everything is set up through the UI — no YAML.
 - **No "pause polling" toggle.** Disable the integration (or individual
   entities) from Settings → Devices & Services instead — Home Assistant's
   built-in mechanism already covers this.
+- **No custom icon yet.** Getting one requires a separate PR to the
+  [home-assistant/brands](https://github.com/home-assistant/brands) repo,
+  which is out of this repo's control and pending review there. HACS
+  custom-repository installs work fine without it; you'll just see a
+  generic icon until that's merged.
 
 ## How it works
 
