@@ -19,6 +19,17 @@ no per-child setup, no hard-coded student IDs.
 history chart per child) — yours will differ since entity IDs come from your
 own account's children.*
 
+## What is Abacus Mental Math?
+
+[![Abacus Mental Math](https://img.youtube.com/vi/6U4WvBi0GWw/hqdefault.jpg)](https://www.youtube.com/watch?v=6U4WvBi0GWw)
+
+Abacus Mental Math runs live, teacher-led online abacus classes for children.
+Find full details at [abacusmentalmath.com](https://abacusmentalmath.com/).
+
+**Referral disclosure.** Mention that Chris Nesbitt-Smith referred you when
+you sign up. You then get $50 off tuition. Chris also gets $50 off. We
+disclose this openly, and it has no effect on the integration itself.
+
 ## What it gives you
 
 Log in with your parent email + password, and the integration discovers
