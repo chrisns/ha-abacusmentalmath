@@ -10,7 +10,6 @@ from homeassistant.components.sensor import (
     SensorEntityDescription,
     SensorStateClass,
 )
-from homeassistant.const import EntityCategory
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
@@ -84,7 +83,6 @@ SENSORS: tuple[AbacusSensorDescription, ...] = (
         key="wins_daily",
         translation_key="wins_daily",
         icon="mdi:trophy-outline",
-        entity_category=EntityCategory.DIAGNOSTIC,
         entity_registry_enabled_default=False,
         value_fn=lambda s: s.wins_daily,
     ),
@@ -92,7 +90,6 @@ SENSORS: tuple[AbacusSensorDescription, ...] = (
         key="wins_weekly",
         translation_key="wins_weekly",
         icon="mdi:trophy-outline",
-        entity_category=EntityCategory.DIAGNOSTIC,
         entity_registry_enabled_default=False,
         value_fn=lambda s: s.wins_weekly,
     ),
@@ -100,7 +97,6 @@ SENSORS: tuple[AbacusSensorDescription, ...] = (
         key="wins_monthly",
         translation_key="wins_monthly",
         icon="mdi:trophy-outline",
-        entity_category=EntityCategory.DIAGNOSTIC,
         entity_registry_enabled_default=False,
         value_fn=lambda s: s.wins_monthly,
     ),
