@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Abacus Mental Math",
+        "description": "Enter your parent-account login. Every child under this account is added automatically.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate Abacus Mental Math",
+        "description": "The password for {email} no longer works. Enter the new one.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Email or password was rejected.",
+      "cannot_connect": "Could not reach the Abacus Mental Math API."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication was successful."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "scan_interval_minutes": "Poll interval (minutes)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "units_today": { "name": "Units today" },
+      "units_yesterday": { "name": "Units yesterday" },
+      "units_this_week": { "name": "Units this week" },
+      "units_this_month": { "name": "Units this month" },
+      "coins": { "name": "Coins" },
+      "diamonds": { "name": "Diamonds" },
+      "last_active": { "name": "Last active" },
+      "wins_daily": { "name": "Wins today" },
+      "wins_weekly": { "name": "Wins this week" },
+      "wins_monthly": { "name": "Wins this month" }
+    }
+  }
+}
